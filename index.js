@@ -4,4 +4,4 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
-let totalBatteries = batteryBatches.reduce(element, 0)
+let totalBatteries = batteryBatches.reduce(reducer, 0)
